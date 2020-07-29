@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Booking Show Time Can display booking show time successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "slot": Array [
+    Object {
+      "timeEnd": "2020-09-30 09:00:00",
+      "timeStart": "2020-09-30 08:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 09:30:00",
+      "timeStart": "2020-09-30 08:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 10:00:00",
+      "timeStart": "2020-09-30 09:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 10:30:00",
+      "timeStart": "2020-09-30 09:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 11:00:00",
+      "timeStart": "2020-09-30 10:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 11:30:00",
+      "timeStart": "2020-09-30 10:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 12:00:00",
+      "timeStart": "2020-09-30 11:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 13:30:00",
+      "timeStart": "2020-09-30 11:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 14:00:00",
+      "timeStart": "2020-09-30 13:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 14:30:00",
+      "timeStart": "2020-09-30 13:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 15:00:00",
+      "timeStart": "2020-09-30 14:00:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 15:30:00",
+      "timeStart": "2020-09-30 14:30:00",
+    },
+    Object {
+      "timeEnd": "2020-09-30 16:00:00",
+      "timeStart": "2020-09-30 15:00:00",
+    },
+  ],
+  "version": "1.0",
+}
+`;
+
+exports[`Display Booking Show Time Can not display booking show time with invalid input date  - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "build": "0",
+  "message": "Waktu Booking tidak valid
+",
+  "slot": Array [],
+  "version": "1.0",
+}
+`;

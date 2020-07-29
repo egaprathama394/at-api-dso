@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display booking service Can display booking service successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "bookingOrderList": Array [
+    Object {
+      "actualFinishTime": "1900-01-01 00:00:00",
+      "address": "",
+      "branchAddress": "Jl. Laks. Yos Sudarso Kav. 46-48 Sunter II, Jakarta Utara ",
+      "branchCode": "D004",
+      "branchDescription": "Astra Daihatsu Sunter",
+      "branchPICName": "Suparmano",
+      "branchPhone1": "0265302000",
+      "branchPhone2": "",
+      "branchStatus": true,
+      "createdTime": "2019-10-22 16:27:02",
+      "dscProcessStatus": 0,
+      "isEligibleForRating": false,
+      "name": "testDSO",
+      "notes": "",
+      "orderEndTime": "2019-10-24 13:30:00",
+      "orderNo": "DFA201900000894",
+      "orderStartTime": "2019-10-24 09:30:00",
+      "orderStatus": 3,
+      "orderType": 2,
+      "phone1": "081903150019",
+      "phone2": "",
+      "policeRegNo": "B1992TEST",
+      "serviceAddress": "",
+      "serviceOrderJobs": Array [
+        Object {
+          "jobCode": "110000",
+          "jobDescription": "CHECKING 110,130,150 dst",
+        },
+      ],
+      "totalAmount": 2205956,
+      "vehicleType": "LUXIO",
+      "vin": "",
+      "year": 2014,
+    },
+    Object {
+      "actualFinishTime": "1900-01-01 00:00:00",
+      "address": "",
+      "branchAddress": "Perum BSD Blok 405/2A Sektor 8, Serpong , Tangerang",
+      "branchCode": "D051",
+      "branchDescription": "Astra Daihatsu Bumi Serpong Damai",
+      "branchPICName": "Ottoh Hidayatullah",
+      "branchPhone1": "0215380011",
+      "branchPhone2": "021",
+      "branchStatus": true,
+      "createdTime": "2019-10-24 08:34:44",
+      "dscProcessStatus": 0,
+      "isEligibleForRating": false,
+      "name": "testDSO Nama Belakang Asli",
+      "notes": "R",
+      "orderEndTime": "2019-10-26 14:00:00",
+      "orderNo": "DFA201900000897",
+      "orderStartTime": "2019-10-26 09:00:00",
+      "orderStatus": 3,
+      "orderType": 2,
+      "phone1": "081903150019",
+      "phone2": "",
+      "policeRegNo": "B100COS",
+      "serviceAddress": "",
+      "serviceOrderJobs": Array [
+        Object {
+          "jobCode": "100000",
+          "jobDescription": "CHECKING 100.000",
+        },
+      ],
+      "totalAmount": 2270116,
+      "vehicleType": "LUXIO",
+      "vin": "",
+      "year": 2014,
+    },
+    Object {
+      "actualFinishTime": "1900-01-01 00:00:00",
+      "address": "",
+      "branchAddress": "Jl. Otto Iskandardinata No.21, Gerendeng, Karawaci, Tangerang-15113",
+      "branchCode": "D061",
+      "branchDescription": "Astra Daihatsu Karawaci",
+      "branchPICName": "",
+      "branchPhone1": "021 555739000",
+      "branchPhone2": "021 55735000",
+      "branchStatus": true,
+      "createdTime": "2019-10-24 20:29:57",
+      "dscProcessStatus": 0,
+      "isEligibleForRating": false,
+      "name": "testDSO Nama Belakang Asli",
+      "notes": "7",
+      "orderEndTime": "2019-10-26 15:00:00",
+      "orderNo": "DFA201900000900",
+      "orderStartTime": "2019-10-26 10:00:00",
+      "orderStatus": 10,
+      "orderType": 2,
+      "phone1": "081903150019",
+      "phone2": "",
+      "policeRegNo": "B100COS",
+      "serviceAddress": "",
+      "serviceOrderJobs": Array [
+        Object {
+          "jobCode": "10000",
+          "jobDescription": "CHECKING 10.000",
+        },
+      ],
+      "totalAmount": 923232,
+      "vehicleType": "LUXIO",
+      "vin": "",
+      "year": 2014,
+    },
+  ],
+  "build": "0",
+  "version": "1.0",
+}
+`;
+
+exports[`Display booking service Can not display booking service if order by are empty - negative test case 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "request.OrderBy": Array [
+      "The OrderBy field is required.",
+    ],
+  },
+}
+`;
+
+exports[`Display booking service Can not display booking service if order by are empty - negative test case 2`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "request.OrderBy": Array [
+      "The OrderBy field is required.",
+    ],
+  },
+}
+`;
+
+exports[`Display booking service Can not display booking service if order by are invalid - negative test case 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "version": "1.0",
+}
+`;
+
+exports[`Display booking service Can not display booking service invalid data request - negative test case 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "request.OrderBy": Array [
+      "The OrderBy field is required.",
+    ],
+  },
+}
+`;

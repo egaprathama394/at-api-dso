@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display My Vehicle Can get all vehicle successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "userVehicleList": Array [
+    Object {
+      "engineNo": "",
+      "id": 7737,
+      "isConfirmed": false,
+      "isDefault": false,
+      "lastServiceDate": "0001-01-01 00:00:00",
+      "policeRegNo": "B1234JOO",
+      "printFakturDate": "0001-01-01 00:00:00",
+      "stnkDate": "2019-10-21 19:56:02",
+      "urlPhoto": "",
+      "vehicleBrand": "Daihatsu",
+      "vehicleName": "LUXIO",
+      "vehicleType": "LUXIO",
+      "vin": "",
+      "year": 2010,
+    },
+  ],
+  "version": "1.0",
+}
+`;
+
+exports[`Display My Vehicle can not display data using vehicle brand not DAIHATSU - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Invalid VehicleBrand",
+  "version": "1.0",
+}
+`;

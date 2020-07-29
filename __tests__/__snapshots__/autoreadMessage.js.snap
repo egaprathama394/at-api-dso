@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autoread Message Contact Us Autoread message at contact us successfully using wrong threadId and authorized token - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "build": "0",
+  "message": "Internal Server Error",
+  "version": "1.0",
+}
+`;

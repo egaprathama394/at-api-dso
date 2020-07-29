@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request Test Drive Can Request test Drive successfully using authorized token  - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "message": "Order Reservation has been submitted",
+  "version": "1.0",
+}
+`;
+
+exports[`Request Test Drive Can Request test Drive successfully using max chars input and authorized token  - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "message": "Order Reservation has been submitted",
+  "version": "1.0",
+}
+`;
+
+exports[`Request Test Drive Can not Request test Drive successfully using empty input and authorized token  - positive test cases 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "request.BookingDateTime": Array [
+      "The field BookingDateTime must be between 1/1/2016 12:00:00 AM and 1/1/9999 12:00:00 AM.",
+    ],
+    "request.BranchCode": Array [
+      "The BranchCode field is required.",
+    ],
+    "request.VehicleType": Array [
+      "The VehicleType field is required.",
+    ],
+  },
+}
+`;
+
+exports[`Request Test Drive Can not Request test Drivey successfully using max + 1 chars input and authorized token  - positive test cases 1`] = `
+Object {
+  "message": "An error has occurred. There's problem in database, please try again later.",
+}
+`;

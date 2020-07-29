@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Master Data Vehicle Test Drive Can get master data Vehicle test drive successfully - positive test cases 1`] = `
+Array [
+  Object {
+    "companyCode": "0003",
+    "id": 16,
+    "isActive": true,
+    "key": "RatingLiveDate",
+    "value": "2019-01-01 11:54:52.130",
+  },
+]
+`;

@@ -1,0 +1,49 @@
+{
+  "name": "at-api-dso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.js --forceExit"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "astraazure@vs-ssh.visualstudio.com:v3/astraazure/Astra%20Seva%20Hybris/at-api-dso"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^25.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.8.0",
+    "jest-expect-message": "^1.0.2",
+    "jest-html-reporters": "^1.0.8",
+    "jest-json-schema": "^2.1.0",
+    "jest-runner-concurrent": "^0.1.1"
+  },
+  "dependencies": {
+    "concat": "^1.0.3",
+    "dotenv": "^8.1.0",
+    "mssql": "^6.0.1",
+    "randomstring": "^1.1.5",
+    "shelljs": "^0.8.3",
+    "sleepfor": "0.0.2",
+    "supertest": "^4.0.2",
+    "write-json-file": "^4.2.1"
+  }
+}

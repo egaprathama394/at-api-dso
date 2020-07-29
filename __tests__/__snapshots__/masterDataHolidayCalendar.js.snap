@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Master Data Holiday Calendar Can get master data Holiday Calendar successfully - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "branch": Array [],
+  "build": "0",
+  "district": Array [],
+  "hobbies": Array [],
+  "holidayCalendar": Array [
+    Object {
+      "holidayDate": "2016-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru Masehi",
+      "id": 1,
+    },
+    Object {
+      "holidayDate": "2016-01-02 00:00:00",
+      "holidayDescription": "Cuti Massal",
+      "id": 2,
+    },
+    Object {
+      "holidayDate": "2016-02-08 00:00:00",
+      "holidayDescription": "Tahun Baru Imlek 2567 Kongzili",
+      "id": 3,
+    },
+    Object {
+      "holidayDate": "2016-03-09 00:00:00",
+      "holidayDescription": "Hari Raya Nyepi Tahun Baru Saka 1938",
+      "id": 4,
+    },
+    Object {
+      "holidayDate": "2016-03-25 00:00:00",
+      "holidayDescription": "Wafat Isa Almasih",
+      "id": 5,
+    },
+    Object {
+      "holidayDate": "2016-05-01 00:00:00",
+      "holidayDescription": "Peringatan Hari Buruh Nasional",
+      "id": 6,
+    },
+    Object {
+      "holidayDate": "2016-05-05 00:00:00",
+      "holidayDescription": "Kenaikan Isa Almasih",
+      "id": 7,
+    },
+    Object {
+      "holidayDate": "2016-05-06 00:00:00",
+      "holidayDescription": "Isra Miraj Nabi Muhammad SAW",
+      "id": 8,
+    },
+    Object {
+      "holidayDate": "2016-05-22 00:00:00",
+      "holidayDescription": "Hari Raya Waisak 2560",
+      "id": 9,
+    },
+    Object {
+      "holidayDate": "2016-07-04 00:00:00",
+      "holidayDescription": "Cuti Bersama",
+      "id": 10,
+    },
+    Object {
+      "holidayDate": "2016-07-05 00:00:00",
+      "holidayDescription": "Cuti Bersama",
+      "id": 11,
+    },
+    Object {
+      "holidayDate": "2016-07-06 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1437 H",
+      "id": 12,
+    },
+    Object {
+      "holidayDate": "2016-07-07 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1437 H",
+      "id": 13,
+    },
+    Object {
+      "holidayDate": "2016-07-08 00:00:00",
+      "holidayDescription": "Cuti Bersama",
+      "id": 14,
+    },
+    Object {
+      "holidayDate": "2016-07-09 00:00:00",
+      "holidayDescription": "Cuti Massal",
+      "id": 15,
+    },
+    Object {
+      "holidayDate": "2016-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 16,
+    },
+    Object {
+      "holidayDate": "2016-09-12 00:00:00",
+      "holidayDescription": "Hari Raya Idul Adha 1437 H",
+      "id": 17,
+    },
+    Object {
+      "holidayDate": "2016-10-02 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1438 H",
+      "id": 18,
+    },
+    Object {
+      "holidayDate": "2016-12-12 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 19,
+    },
+    Object {
+      "holidayDate": "2016-12-25 00:00:00",
+      "holidayDescription": "Hari Raya Natal",
+      "id": 20,
+    },
+    Object {
+      "holidayDate": "2016-12-26 00:00:00",
+      "holidayDescription": "Cuti Bersama",
+      "id": 21,
+    },
+    Object {
+      "holidayDate": "2017-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru Masehi 2017",
+      "id": 22,
+    },
+    Object {
+      "holidayDate": "2017-01-02 00:00:00",
+      "holidayDescription": "Cuti Massal Tahun Baru Masehi 2017",
+      "id": 23,
+    },
+    Object {
+      "holidayDate": "2017-01-28 00:00:00",
+      "holidayDescription": "Tahun Baru Imlek 2566 Kongzili",
+      "id": 24,
+    },
+    Object {
+      "holidayDate": "2017-03-28 00:00:00",
+      "holidayDescription": "Hari Raya Nyepi Th Saka 1939",
+      "id": 25,
+    },
+    Object {
+      "holidayDate": "2017-04-14 00:00:00",
+      "holidayDescription": "Wafat Isa Almasih",
+      "id": 26,
+    },
+    Object {
+      "holidayDate": "2017-04-24 00:00:00",
+      "holidayDescription": "Isra Miraj Nabi Muhammad SAW",
+      "id": 27,
+    },
+    Object {
+      "holidayDate": "2017-05-01 00:00:00",
+      "holidayDescription": "Peringatan Hari Buruh Internasional",
+      "id": 28,
+    },
+    Object {
+      "holidayDate": "2017-05-11 00:00:00",
+      "holidayDescription": "Hari Raya Waisak",
+      "id": 29,
+    },
+    Object {
+      "holidayDate": "2017-05-25 00:00:00",
+      "holidayDescription": "Kenaikan Isa Al-Masih",
+      "id": 30,
+    },
+    Object {
+      "holidayDate": "2017-07-01 00:00:00",
+      "holidayDescription": "Hari Lahir Pancasila",
+      "id": 31,
+    },
+    Object {
+      "holidayDate": "2017-06-24 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 32,
+    },
+    Object {
+      "holidayDate": "2017-06-25 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1438 H",
+      "id": 33,
+    },
+    Object {
+      "holidayDate": "2017-06-26 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1438 H",
+      "id": 34,
+    },
+    Object {
+      "holidayDate": "2017-06-27 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 35,
+    },
+    Object {
+      "holidayDate": "2017-06-28 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 36,
+    },
+    Object {
+      "holidayDate": "2017-06-29 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 37,
+    },
+    Object {
+      "holidayDate": "2017-06-30 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 38,
+    },
+    Object {
+      "holidayDate": "2017-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 39,
+    },
+    Object {
+      "holidayDate": "2017-09-01 00:00:00",
+      "holidayDescription": "Rari Raya Idul Adha 1438 H",
+      "id": 40,
+    },
+    Object {
+      "holidayDate": "2017-09-21 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1439 H",
+      "id": 41,
+    },
+    Object {
+      "holidayDate": "2017-12-01 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 42,
+    },
+    Object {
+      "holidayDate": "2017-12-25 00:00:00",
+      "holidayDescription": "Hari Raya Natal",
+      "id": 43,
+    },
+    Object {
+      "holidayDate": "2017-12-26 00:00:00",
+      "holidayDescription": "Cuti Massal Hari Raya Natal",
+      "id": 44,
+    },
+    Object {
+      "holidayDate": "2017-07-01 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1438 H",
+      "id": 53,
+    },
+    Object {
+      "holidayDate": "2018-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru Masehi 2018",
+      "id": 54,
+    },
+    Object {
+      "holidayDate": "2018-02-16 00:00:00",
+      "holidayDescription": "Tahun Baru Imlek 2569 Kongzili",
+      "id": 55,
+    },
+    Object {
+      "holidayDate": "2018-03-17 00:00:00",
+      "holidayDescription": "Hari Raya Nyepi Th Saka 1940",
+      "id": 56,
+    },
+    Object {
+      "holidayDate": "2018-03-30 00:00:00",
+      "holidayDescription": "Wafat Isa Almasih",
+      "id": 57,
+    },
+    Object {
+      "holidayDate": "2018-04-14 00:00:00",
+      "holidayDescription": "Isra Mikraj Nabi Muhammad SAW",
+      "id": 58,
+    },
+    Object {
+      "holidayDate": "2018-05-01 00:00:00",
+      "holidayDescription": "Peringatan Hari Buruh Internasional",
+      "id": 59,
+    },
+    Object {
+      "holidayDate": "2018-05-10 00:00:00",
+      "holidayDescription": "Kenaikan Isa Al Masih",
+      "id": 60,
+    },
+    Object {
+      "holidayDate": "2018-05-29 00:00:00",
+      "holidayDescription": "Hari Raya Waisak 2566",
+      "id": 61,
+    },
+    Object {
+      "holidayDate": "2018-06-01 00:00:00",
+      "holidayDescription": "Hari Lahir Pancasila",
+      "id": 62,
+    },
+    Object {
+      "holidayDate": "2018-06-15 00:00:00",
+      "holidayDescription": "Hari RayaIdutl Fitri 1439 H",
+      "id": 63,
+    },
+    Object {
+      "holidayDate": "2018-06-16 00:00:00",
+      "holidayDescription": "Hari RayaIdutl Fitri 1439 H",
+      "id": 64,
+    },
+    Object {
+      "holidayDate": "2018-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 65,
+    },
+    Object {
+      "holidayDate": "2018-08-22 00:00:00",
+      "holidayDescription": "Hari Raya Idul Adha 1439 H",
+      "id": 66,
+    },
+    Object {
+      "holidayDate": "2018-09-11 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1440 H",
+      "id": 67,
+    },
+    Object {
+      "holidayDate": "2018-11-20 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 68,
+    },
+    Object {
+      "holidayDate": "2018-12-25 00:00:00",
+      "holidayDescription": "Hari Raya Natal",
+      "id": 69,
+    },
+    Object {
+      "holidayDate": "2018-11-01 00:00:00",
+      "holidayDescription": "testing libur",
+      "id": 71,
+    },
+    Object {
+      "holidayDate": "2018-12-12 00:00:00",
+      "holidayDescription": "Testing Libur",
+      "id": 72,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru Masehi 2019",
+      "id": 73,
+    },
+    Object {
+      "holidayDate": "2019-02-05 00:00:00",
+      "holidayDescription": "Tahun Baru Imlek 2570 Kongzili",
+      "id": 74,
+    },
+    Object {
+      "holidayDate": "2019-03-07 00:00:00",
+      "holidayDescription": "Hari Raya Nyepi Th Saka 1941",
+      "id": 75,
+    },
+    Object {
+      "holidayDate": "2019-04-03 00:00:00",
+      "holidayDescription": "Isra Mikraj Nabi Muhammad SAW",
+      "id": 76,
+    },
+    Object {
+      "holidayDate": "2019-04-17 00:00:00",
+      "holidayDescription": "Pemungutan Suara Pemiihan Legislatif dan Presiden Indonesia 2019",
+      "id": 77,
+    },
+    Object {
+      "holidayDate": "2019-04-19 00:00:00",
+      "holidayDescription": "Wafat Isa Almasih",
+      "id": 78,
+    },
+    Object {
+      "holidayDate": "2019-05-01 00:00:00",
+      "holidayDescription": "Peringatan Hari Buruh Internasional",
+      "id": 79,
+    },
+    Object {
+      "holidayDate": "2019-05-19 00:00:00",
+      "holidayDescription": "Hari Raya Waisak 2563",
+      "id": 80,
+    },
+    Object {
+      "holidayDate": "2019-05-30 00:00:00",
+      "holidayDescription": "Kenaikan Isa Al Masih",
+      "id": 81,
+    },
+    Object {
+      "holidayDate": "2019-06-01 00:00:00",
+      "holidayDescription": "Hari Lahir Pancasila",
+      "id": 82,
+    },
+    Object {
+      "holidayDate": "2019-06-03 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri 1440 H",
+      "id": 83,
+    },
+    Object {
+      "holidayDate": "2019-06-04 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri 1440 H",
+      "id": 84,
+    },
+    Object {
+      "holidayDate": "2019-06-05 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1440 H",
+      "id": 85,
+    },
+    Object {
+      "holidayDate": "2019-06-06 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1440 H",
+      "id": 86,
+    },
+    Object {
+      "holidayDate": "2019-06-07 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri 1440 H",
+      "id": 87,
+    },
+    Object {
+      "holidayDate": "2019-08-11 00:00:00",
+      "holidayDescription": "Hari Raya Idul Adha 1440 H",
+      "id": 88,
+    },
+    Object {
+      "holidayDate": "2019-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 89,
+    },
+    Object {
+      "holidayDate": "2019-09-01 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1441 H",
+      "id": 90,
+    },
+    Object {
+      "holidayDate": "2019-11-09 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 91,
+    },
+    Object {
+      "holidayDate": "2019-12-24 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Natal",
+      "id": 92,
+    },
+    Object {
+      "holidayDate": "2019-12-25 00:00:00",
+      "holidayDescription": "Hari Raya Natal",
+      "id": 93,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "TESTING TAHUN BARU",
+      "id": 94,
+    },
+    Object {
+      "holidayDate": "2019-01-19 00:00:00",
+      "holidayDescription": "Testing Libur",
+      "id": 106,
+    },
+    Object {
+      "holidayDate": "2019-06-01 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 107,
+    },
+    Object {
+      "holidayDate": "2019-06-02 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 108,
+    },
+    Object {
+      "holidayDate": "2019-06-03 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 109,
+    },
+    Object {
+      "holidayDate": "2019-06-04 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 110,
+    },
+    Object {
+      "holidayDate": "2019-06-05 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1440 H",
+      "id": 111,
+    },
+    Object {
+      "holidayDate": "2019-06-06 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1440 H",
+      "id": 112,
+    },
+    Object {
+      "holidayDate": "2019-06-07 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 113,
+    },
+    Object {
+      "holidayDate": "2019-06-08 00:00:00",
+      "holidayDescription": "Cuti Massal Idul Fitri 1440 H",
+      "id": 114,
+    },
+    Object {
+      "holidayDate": "2019-08-11 00:00:00",
+      "holidayDescription": "Hari Raya Idul Adha 1440 H",
+      "id": 115,
+    },
+    Object {
+      "holidayDate": "2019-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 116,
+    },
+    Object {
+      "holidayDate": "2019-09-01 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1441 H",
+      "id": 117,
+    },
+    Object {
+      "holidayDate": "2019-11-09 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 118,
+    },
+    Object {
+      "holidayDate": "2019-12-24 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Natal",
+      "id": 119,
+    },
+    Object {
+      "holidayDate": "2019-09-28 00:00:00",
+      "holidayDescription": "Holiday Testing",
+      "id": 120,
+    },
+    Object {
+      "holidayDate": "2019-09-29 00:00:00",
+      "holidayDescription": "Holiday Testing",
+      "id": 121,
+    },
+    Object {
+      "holidayDate": "2019-10-05 00:00:00",
+      "holidayDescription": "Holiday Testing",
+      "id": 122,
+    },
+    Object {
+      "holidayDate": "2020-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru 2020",
+      "id": 123,
+    },
+    Object {
+      "holidayDate": "2020-01-25 00:00:00",
+      "holidayDescription": "Tahun Baru Imlek 2571 Kongzili",
+      "id": 124,
+    },
+    Object {
+      "holidayDate": "2020-03-22 00:00:00",
+      "holidayDescription": "Isra Miraj Nabi Muhammad SAW",
+      "id": 125,
+    },
+    Object {
+      "holidayDate": "2020-03-25 00:00:00",
+      "holidayDescription": "Hari Suci Nyepi Tahun Baru Saka 1942",
+      "id": 126,
+    },
+    Object {
+      "holidayDate": "2020-04-10 00:00:00",
+      "holidayDescription": "Wafat Isa Al Masih",
+      "id": 127,
+    },
+    Object {
+      "holidayDate": "2020-05-01 00:00:00",
+      "holidayDescription": "Hari Buruh Internasional",
+      "id": 128,
+    },
+    Object {
+      "holidayDate": "2020-05-07 00:00:00",
+      "holidayDescription": "Hari Raya Waisak 2564",
+      "id": 129,
+    },
+    Object {
+      "holidayDate": "2020-05-21 00:00:00",
+      "holidayDescription": "Kenaikan Isa Al Masih",
+      "id": 130,
+    },
+    Object {
+      "holidayDate": "2020-05-22 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri",
+      "id": 131,
+    },
+    Object {
+      "holidayDate": "2020-05-24 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1441 Hijriyah",
+      "id": 132,
+    },
+    Object {
+      "holidayDate": "2020-05-25 00:00:00",
+      "holidayDescription": "Hari Raya Idul Fitri 1441 Hijriyah",
+      "id": 133,
+    },
+    Object {
+      "holidayDate": "2020-05-26 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri",
+      "id": 134,
+    },
+    Object {
+      "holidayDate": "2020-05-27 00:00:00",
+      "holidayDescription": "Cuti Bersama Hari Raya Idul Fitri",
+      "id": 135,
+    },
+    Object {
+      "holidayDate": "2020-06-01 00:00:00",
+      "holidayDescription": "Hari Lahir Pancasila",
+      "id": 136,
+    },
+    Object {
+      "holidayDate": "2020-07-31 00:00:00",
+      "holidayDescription": "Hari Raya Idul Adha 1441 Hijriyah",
+      "id": 137,
+    },
+    Object {
+      "holidayDate": "2020-08-17 00:00:00",
+      "holidayDescription": "Hari Kemerdekaan RI",
+      "id": 138,
+    },
+    Object {
+      "holidayDate": "2020-08-20 00:00:00",
+      "holidayDescription": "Tahun Baru Islam 1442 H",
+      "id": 139,
+    },
+    Object {
+      "holidayDate": "2020-10-29 00:00:00",
+      "holidayDescription": "Maulid Nabi Muhammad SAW",
+      "id": 140,
+    },
+    Object {
+      "holidayDate": "2020-12-25 00:00:00",
+      "holidayDescription": "Hari Raya Natal",
+      "id": 141,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "New year",
+      "id": 95,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 96,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 97,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 98,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru2",
+      "id": 99,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 100,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 101,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 102,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 103,
+    },
+    Object {
+      "holidayDate": "2019-01-01 00:00:00",
+      "holidayDescription": "Tahun Baru",
+      "id": 104,
+    },
+    Object {
+      "holidayDate": "2019-01-02 00:00:00",
+      "holidayDescription": "test",
+      "id": 105,
+    },
+  ],
+  "jobService": Array [],
+  "jobServiceCompany": Array [],
+  "location": Array [],
+  "parameterConfigApplication": Array [],
+  "province": Array [],
+  "region": Array [],
+  "vehicleBrand": Array [],
+  "vehicleTestDrive": Array [],
+  "version": "1.0",
+}
+`;

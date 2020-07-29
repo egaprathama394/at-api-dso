@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete My Vehicle Can removed vehicle successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "Remove vehicle VIN:1234567890abcdefg, PoliceRegNo:B5555TEST is success",
+  "version": "1.0",
+}
+`;
+
+exports[`Delete My Vehicle can not remove my vehicle that does not exist using authorized token - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Vehicle is not exist",
+  "version": "1.0",
+}
+`;
+
+exports[`Delete My Vehicle can not remove vehicle that already removed using authorized token - negative test case 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Vehicle is not exist",
+  "version": "1.0",
+}
+`;

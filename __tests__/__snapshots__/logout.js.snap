@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logout Can logout succesfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "SignOut for dbdtester8@gmail.com is success. Thank you for using the application.",
+  "version": "1.0",
+}
+`;
+
+exports[`Logout Can not logout using empty token - negative test cases 1`] = `
+Object {
+  "error": "invalid_token",
+  "error_description": "The access token is missing.",
+}
+`;
+
+exports[`Logout Can not logout using incomplete data request - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Data is not complete: [DeviceId]",
+  "version": "1.0",
+}
+`;
+
+exports[`Logout Can not logout using unauthorized token - negative test cases 1`] = `
+Object {
+  "error": "invalid_token",
+  "error_description": "The access token is invalid or expired.",
+}
+`;

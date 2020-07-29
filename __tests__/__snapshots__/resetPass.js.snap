@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reset Password Can not reset password using unregistered email   - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Account is invalid.",
+  "version": "1.0",
+}
+`;
+
+exports[`Reset Password Can reset password using registered email  - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "Request is success and sent to dbdtester8@gmail.com. Please check your inbox or spam email for password reset.",
+  "version": "1.0",
+}
+`;

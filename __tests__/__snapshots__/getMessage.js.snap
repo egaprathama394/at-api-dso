@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Message Contact Us Can get all message at contact us successfully using authorized token - positive test cases 1`] = `
+Object {
+  "address": "",
+  "branchCode": "HO",
+  "branchName": "Head Office",
+  "categoryId": 108,
+  "createdBy": "testerlogin.DSO@gmail.com",
+  "createdTime": "2019-10-29 14:32:08",
+  "customerCare": "",
+  "id": 16562,
+  "isClientDeleted": false,
+  "isClosed": false,
+  "isDealerDeleted": false,
+  "isRead": true,
+  "lastPostId": 0,
+  "message": "halo halo bandung",
+  "message1": "halo halo bandung",
+  "messageParentId": 0,
+  "modifiedBy": "testerlogin.DSO@gmail.com",
+  "name": "tester login",
+  "phone": "081903150019",
+  "sendFrom": "tester login",
+  "title": "halohalo",
+  "totalMessage": 1,
+  "userId": "testerlogin.DSO@gmail.com",
+}
+`;
+
+exports[`Get Message Contact Us Can not get message using empty userId - negative test cases 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "userId.String": Array [
+      "A value is required but was not present in the request.",
+    ],
+  },
+}
+`;
+
+exports[`Get Message Contact Us Can not get message using invalid userId - negative test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "messages": Array [],
+  "version": "1.1",
+}
+`;
+
+exports[`Get Message Contact Us Can not get message using null userId - negative test cases 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "userId.String": Array [
+      "A value is required but was not present in the request.",
+    ],
+  },
+}
+`;
+
+exports[`Get Message Contact Us Can not get message without queryParam - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "build": "0",
+  "messages": Array [],
+  "version": "1.1",
+}
+`;

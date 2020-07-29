@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Regular Registration Can not registration using email register but not active yet - negative test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "Account xxxyyy0990@gmail.com is not active. Activation email will be sent. Please check your inbox or spam email for activation.",
+  "version": "1.0",
+}
+`;
+
+exports[`Regular Registration Can not registration using input max+1 chars at email, first name, and last name - negative test cases 1`] = `
+Object {
+  "message": "An error has occurred. There's problem in database, please try again later.",
+}
+`;
+
+exports[`Regular Registration Can not registration using registered email - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "errorCode": 0,
+  "message": "Account is already exist. Please use login menu.",
+  "version": "1.0",
+}
+`;
+
+exports[`Regular Registration Can registered using input max at email, first name, and last name - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "SignUp for testingAT.ABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJABCDEFGHIJ@gmail.com is success. Please check your inbox or spam email for activation.",
+  "version": "1.0",
+}
+`;
+
+exports[`Regular Registration Can registered using unregistered email - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "SignUp for renni.aja8@gmail.com is success. Please check your inbox or spam email for activation.",
+  "version": "1.0",
+}
+`;

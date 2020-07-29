@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sync Status Order Booking Can sync status booking service order successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "build": "0",
+  "message": "ServiceOrderEntity has been updated",
+  "version": "1.0",
+}
+`;

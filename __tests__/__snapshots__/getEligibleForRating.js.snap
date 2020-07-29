@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Eligible For Rating Order Booking Can get counted order eligible for rating service order successfully using authorized token - positive test cases 1`] = `
+Object {
+  "unratedOrdersCount": 1,
+}
+`;
+
+exports[`Get Eligible For Rating Order Booking Can not get counted order eligible for rating service order using empty query param  - negative test cases 1`] = `
+Object {
+  "message": "The request is invalid.",
+  "modelState": Object {
+    "orderby.String": Array [
+      "A value is required but was not present in the request.",
+    ],
+  },
+}
+`;

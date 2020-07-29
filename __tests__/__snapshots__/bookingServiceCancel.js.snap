@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cancel booking service can not cancel booking service if orderNo not valid - negative test cases 1`] = `
+Object {
+  "acknowledge": 0,
+  "build": "0",
+  "message": "Order No tidak valid
+",
+  "orderNo": "",
+  "version": "1.0",
+}
+`;

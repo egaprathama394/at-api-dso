@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Can get profile successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "Display profile is success",
+  "userAccount": Object {
+    "address": "",
+    "birthdate": "1900-01-01 00:00:00",
+    "defaultPaymentMethod": 0,
+    "districtCode": "",
+    "email": "testerlogin.DSO@gmail.com",
+    "firstName": "tester",
+    "gender": 0,
+    "hobby": "",
+    "identificationDate": "1900-01-01 00:00:00",
+    "identificationNumber": "",
+    "identificationType": "Other",
+    "lastName": "login",
+    "location": "",
+    "occupation": "",
+    "phoneNo": "081903150019",
+    "provinceCode": "",
+    "referralCode": "",
+    "religion": 0,
+    "subdistrictCode": "",
+    "urlPhotoProfile": "",
+    "villageCode": "",
+    "zipCode": "",
+  },
+  "version": "1.0",
+}
+`;
+
+exports[`Profile Can not get profile using empty token - negative test cases  1`] = `
+Object {
+  "error": "invalid_token",
+  "error_description": "The access token is missing.",
+}
+`;
+
+exports[`Profile Can not get profile using null token - negative test cases  1`] = `
+Object {
+  "error": "invalid_token",
+  "error_description": "The access token is invalid or expired.",
+}
+`;
+
+exports[`Profile Can not get profile using unauthorized token - negative test cases  1`] = `
+Object {
+  "error": "invalid_token",
+  "error_description": "The access token is invalid or expired.",
+}
+`;

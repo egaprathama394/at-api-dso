@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Profile Can edit profile successfully using authorized token - positive test cases 1`] = `
+Object {
+  "acknowledge": 1,
+  "errorCode": 0,
+  "message": "Display profile is success",
+  "userAccount": Object {
+    "address": "Alamat Asli",
+    "birthdate": "1993-11-08 00:00:00",
+    "defaultPaymentMethod": 0,
+    "districtCode": "3173",
+    "email": "testerdso8@gmail.com",
+    "firstName": "Renni",
+    "gender": 0,
+    "hobby": "",
+    "identificationDate": "1900-01-01 00:00:00",
+    "identificationNumber": "",
+    "identificationType": "Other",
+    "lastName": "Nugraheni",
+    "location": "",
+    "occupation": "",
+    "phoneNo": "081456155090",
+    "provinceCode": "3100",
+    "referralCode": "",
+    "religion": 0,
+    "subdistrictCode": "",
+    "urlPhotoProfile": "",
+    "villageCode": "",
+    "zipCode": "",
+  },
+  "version": "1.0",
+}
+`;
